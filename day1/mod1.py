@@ -1,3 +1,5 @@
+import random
+
 print('Hello world')
 
 #unpacking - desestruturação
@@ -16,8 +18,16 @@ nome2 = nome.upper()
 
 print(f'Então,{nome2}, ao verificar o seu curso de {curso} percebemos que você não tem vínculo ativo para o semestre atual. Deseja renovar sua matrícula? Estamos com ótimos descontos para alunos do signo de {signo}')
 
-print(msg1.split('.'))
 
 # extraindo partes da string
 primeiraletra = print(nome[0])
+
+#Operadores matemáticos
+alunos = ['joão','maria', 'jefferson']
+print(random.shuffle(alunos))
+print(alunos)
+
+
+#operador ternario
+
 
