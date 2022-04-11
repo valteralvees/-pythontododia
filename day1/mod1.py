@@ -29,5 +29,5 @@ print(alunos)
 
 
 #operador ternario
-
+print('liberado') if nome == "Valter" else print('Acesso negado')
 

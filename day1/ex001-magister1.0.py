@@ -7,7 +7,9 @@ if name[0] == "V":
   course = input("What's your graduation?")
   if course == "ADS" or "Análise e Desenvolvimento de Sistemas":
     print('Your acess is being watched by the Security Sistems Crew. Be attenction to your njavegation in our site. Any attacks to our system can be and will be punished.')
+
   elif course == "psicologia":
     print('My dear, please go out our site. You are nuts...')
 else:
   print('Acess denied')
+
